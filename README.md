@@ -1,4 +1,4 @@
-# Go Demo 4 - Go Demo application in Istio Service Mesh
+# Go Demo 4 - Go Demo application using Istio Service Mesh
 
 Using Istio with Golang app
 
