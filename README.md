@@ -44,7 +44,7 @@ kubectl apply -f k8s/service.yaml
 
 Check:
 
-sh```
+```sh
 URL=$(kubectl get svc istio-ingressgateway -n istio-system -o jsonpath='{.status.loadBalancer.ingress[0].ip}')
 
 curl http://$URL/isAlive -H "Host: <CHANGE_WITH_YOUR_DNS>"
